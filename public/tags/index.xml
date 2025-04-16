@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on TaoistLoaf</title>
-    <link>https://example.org/tags/</link>
+    <link>https://taoistloaf.github.io/tags/</link>
     <description>Recent content in Tags on TaoistLoaf</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Apr 2025 01:04:37 -0500</lastBuildDate>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://taoistloaf.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Command</title>
-      <link>https://example.org/tags/hugo-command/</link>
+      <link>https://taoistloaf.github.io/tags/hugo-command/</link>
       <pubDate>Wed, 16 Apr 2025 01:04:37 -0500</pubDate>
-      <guid>https://example.org/tags/hugo-command/</guid>
+      <guid>https://taoistloaf.github.io/tags/hugo-command/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://example.org/tags/hugo/</link>
+      <link>https://taoistloaf.github.io/tags/hugo/</link>
       <pubDate>Tue, 15 Apr 2025 23:42:42 -0500</pubDate>
-      <guid>https://example.org/tags/hugo/</guid>
+      <guid>https://taoistloaf.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>ML</title>
-      <link>https://example.org/tags/ml/</link>
+      <link>https://taoistloaf.github.io/tags/ml/</link>
       <pubDate>Tue, 15 Apr 2025 23:42:42 -0500</pubDate>
-      <guid>https://example.org/tags/ml/</guid>
+      <guid>https://taoistloaf.github.io/tags/ml/</guid>
       <description></description>
     </item>
     <item>
       <title>Belles-Lettres</title>
-      <link>https://example.org/tags/belles-lettres/</link>
+      <link>https://taoistloaf.github.io/tags/belles-lettres/</link>
       <pubDate>Wed, 11 Sep 2024 23:42:42 -0500</pubDate>
-      <guid>https://example.org/tags/belles-lettres/</guid>
+      <guid>https://taoistloaf.github.io/tags/belles-lettres/</guid>
       <description></description>
     </item>
     <item>
       <title>CS411</title>
-      <link>https://example.org/tags/cs411/</link>
+      <link>https://taoistloaf.github.io/tags/cs411/</link>
       <pubDate>Wed, 11 Sep 2024 23:42:42 -0500</pubDate>
-      <guid>https://example.org/tags/cs411/</guid>
+      <guid>https://taoistloaf.github.io/tags/cs411/</guid>
       <description></description>
     </item>
     <item>
       <title>Database</title>
-      <link>https://example.org/tags/database/</link>
+      <link>https://taoistloaf.github.io/tags/database/</link>
       <pubDate>Wed, 11 Sep 2024 23:42:42 -0500</pubDate>
-      <guid>https://example.org/tags/database/</guid>
+      <guid>https://taoistloaf.github.io/tags/database/</guid>
       <description></description>
     </item>
   </channel>

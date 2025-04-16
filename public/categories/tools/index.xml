@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tools on TaoistLoaf</title>
-    <link>https://example.org/categories/tools/</link>
+    <link>https://taoistloaf.github.io/categories/tools/</link>
     <description>Recent content in Tools on TaoistLoaf</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Apr 2025 01:04:37 -0500</lastBuildDate>
-    <atom:link href="https://example.org/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://taoistloaf.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Command</title>
-      <link>https://example.org/posts/hugo-command/</link>
+      <link>https://taoistloaf.github.io/posts/hugo-command/</link>
       <pubDate>Wed, 16 Apr 2025 01:04:37 -0500</pubDate>
-      <guid>https://example.org/posts/hugo-command/</guid>
+      <guid>https://taoistloaf.github.io/posts/hugo-command/</guid>
       <description>&lt;h2 id=&#34;hugo-git-operation&#34;&gt;Hugo Git operation&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;generate a new post: &lt;code&gt;hugo new posts/my-first-post.md&lt;/code&gt;&lt;/li&gt;
