@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Belles-Lettres on TaoistLoaf</title>
+    <link>https://example.org/categories/belles-lettres/</link>
+    <description>Recent content in Belles-Lettres on TaoistLoaf</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Sep 2024 23:42:42 -0500</lastBuildDate>
+    <atom:link href="https://example.org/categories/belles-lettres/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9/11/2024 My thought in Grainger Library</title>
+      <link>https://example.org/posts/9-11-2024/</link>
+      <pubDate>Wed, 11 Sep 2024 23:42:42 -0500</pubDate>
+      <guid>https://example.org/posts/9-11-2024/</guid>
+      <description>&lt;p&gt;Just jotting down a few thoughts—today’s my first time studying at the university library.&lt;/p&gt;
+&lt;p&gt;Philip Greenspun feels like an old rascal—in the best possible way. Kind of like reading the diaries of Hu Shi or Ji Xianlin, where you can sense a life fully lived, infused into every word.&lt;/p&gt;
+&lt;p&gt;Phil is a professor of Electrical Engineering and Computer Science at MIT, and his website hosts a bunch of textbooks he wrote himself—not just on computer science, but also photography, aerospace, even how to chase women. Haha. He’s been writing there since 1997, and I feel lucky to witness nearly 30 years of one man’s evolving mind.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

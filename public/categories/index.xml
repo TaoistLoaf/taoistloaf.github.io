@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on TaoistLoaf</title>
+    <link>https://example.org/categories/</link>
+    <description>Recent content in Categories on TaoistLoaf</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Apr 2025 01:04:37 -0500</lastBuildDate>
+    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools</title>
+      <link>https://example.org/categories/tools/</link>
+      <pubDate>Wed, 16 Apr 2025 01:04:37 -0500</pubDate>
+      <guid>https://example.org/categories/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech Note</title>
+      <link>https://example.org/categories/tech-note/</link>
+      <pubDate>Tue, 15 Apr 2025 23:42:42 -0500</pubDate>
+      <guid>https://example.org/categories/tech-note/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Belles-Lettres</title>
+      <link>https://example.org/categories/belles-lettres/</link>
+      <pubDate>Wed, 11 Sep 2024 23:42:42 -0500</pubDate>
+      <guid>https://example.org/categories/belles-lettres/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

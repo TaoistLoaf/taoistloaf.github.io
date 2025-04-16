@@ -1,0 +1,51 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'TaoistLoaf'
+theme = "PaperMod"
+
+[params]
+  author = "ZZ."
+  description = "Welcome to my blog"
+  showReadingTime = true  # 显示阅读时间
+  disableThemeToggle = false  # 启用暗/亮模式切换
+  showAllTags = true
+  
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+  identifier = "post"
+  name = "Blog"
+  url = "/posts/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "taxonomy"
+  name = "Topics"
+  url = "/taxonomy/"
+  weight = 6
+
+  [[menu.main]]
+  identifier = "CV"
+  name = "CV"
+  url = "/cv/"
+  weight = 6
+  
+preserveTaxonomyNames = true
+disablePathToLower = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

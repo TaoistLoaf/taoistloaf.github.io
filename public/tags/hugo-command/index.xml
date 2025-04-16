@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo Command on TaoistLoaf</title>
+    <link>https://example.org/tags/hugo-command/</link>
+    <description>Recent content in Hugo Command on TaoistLoaf</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Apr 2025 01:04:37 -0500</lastBuildDate>
+    <atom:link href="https://example.org/tags/hugo-command/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Command</title>
+      <link>https://example.org/posts/hugo-command/</link>
+      <pubDate>Wed, 16 Apr 2025 01:04:37 -0500</pubDate>
+      <guid>https://example.org/posts/hugo-command/</guid>
+      <description>&lt;h2 id=&#34;hugo-git-operation&#34;&gt;Hugo Git operation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;generate a new post: &lt;code&gt;hugo new posts/my-first-post.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;draft: &lt;code&gt;false&lt;/code&gt; render draft posts&lt;/li&gt;
+&lt;li&gt;generate a new page &lt;code&gt;hugo new about.md&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;git-operation&#34;&gt;Git Operation&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>
