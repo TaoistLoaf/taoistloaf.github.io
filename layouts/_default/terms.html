@@ -1,0 +1,20 @@
+{{ define "main" }}
+<header class="page-header tags-header">
+  <h1>{{ i18n "allTags" }}</h1>
+  <p>{{ i18n "tagsIntro" }}</p>
+</header>
+<div class="all-language-tags">
+  {{ range .Sites }}
+  <section class="language-tags">
+    <h2>{{ .Language.LanguageName }}</h2>
+    <ul class="terms-tags">
+      {{ range .Taxonomies.tags.ByCount }}
+      <li><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }} <sup>{{ .Count }}</sup></a></li>
+      {{ else }}
+      <li>{{ i18n "noTags" }}</li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</div>
+{{ end }}

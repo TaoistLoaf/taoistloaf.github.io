@@ -1,0 +1,103 @@
+baseURL = "https://taoistloaf.github.io/"
+title = "TaoistLoaf"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
+enableGitInfo = false
+timeZone = "America/Chicago"
+
+[taxonomies]
+tag = "tags"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+author = "Zachary (Ziyue) Zhuang"
+description = "Notes, essays, and technical writing by Zachary Zhuang."
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+comments = true
+
+[params.assets]
+disableHLJS = true
+
+[params.giscus]
+repo = "TaoistLoaf/taoistloaf.github.io"
+repoID = ""
+category = "Announcements"
+categoryID = ""
+mapping = "pathname"
+strict = "0"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "top"
+theme = "preferred_color_scheme"
+lang = "en"
+
+[languages.en]
+languageName = "English"
+languageCode = "en-us"
+contentDir = "content/en"
+weight = 1
+
+[languages.en.params]
+description = "Notes, essays, and technical writing by Zachary Zhuang."
+
+[[languages.en.menu.main]]
+name = "Home"
+url = "/en/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Writing"
+url = "/en/posts/"
+weight = 20
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "/en/tags/"
+weight = 30
+
+[[languages.en.menu.main]]
+name = "About"
+url = "/en/about/"
+weight = 40
+
+[languages.zh]
+languageName = "中文"
+languageCode = "zh-cn"
+contentDir = "content/zh"
+weight = 2
+hasCJKLanguage = true
+
+[languages.zh.params]
+description = "庄子越的随笔、技术札记与个人记录。"
+
+[[languages.zh.menu.main]]
+name = "首页"
+url = "/zh/"
+weight = 10
+
+[[languages.zh.menu.main]]
+name = "随笔"
+url = "/zh/posts/"
+weight = 20
+
+[[languages.zh.menu.main]]
+name = "标签"
+url = "/zh/tags/"
+weight = 30
+
+[[languages.zh.menu.main]]
+name = "关于"
+url = "/zh/about/"
+weight = 40
+
+[markup.goldmark.renderer]
+unsafe = true

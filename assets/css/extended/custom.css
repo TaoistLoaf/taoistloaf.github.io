@@ -1,0 +1,40 @@
+:root {
+  --main-width: 760px;
+}
+
+.nav { max-width: calc(var(--main-width) + var(--gap) * 2); }
+.main { max-width: calc(var(--main-width) + var(--gap) * 2); }
+.post-content { font-family: ui-serif, Georgia, "Noto Serif SC", serif; }
+
+.home-intro {
+  display: grid;
+  grid-template-columns: 176px 1fr;
+  gap: 2.4rem;
+  align-items: center;
+  margin: 3.5rem 0 4.5rem;
+}
+.home-avatar { width: 176px; height: 176px; object-fit: cover; border-radius: 50%; }
+.home-kicker { margin: 0 0 .4rem; color: var(--secondary); font-size: .9rem; letter-spacing: .08em; text-transform: uppercase; }
+.home-intro h1 { margin: 0 0 1rem; font-size: 2.2rem; line-height: 1.15; }
+.home-intro h1 span { display: block; color: var(--secondary); font-weight: 400; font-size: 1rem; margin-top: .4rem; }
+.home-intro p { line-height: 1.7; }
+.home-note { color: var(--secondary); }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 1rem; }
+.section-heading h2 { margin: 0; }
+.section-heading a { color: var(--secondary); font-size: .9rem; }
+.writing-row { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; padding: 1.15rem 0; border-top: 1px solid var(--border); }
+.writing-row time { color: var(--secondary); font-size: .88rem; }
+.writing-row h3 { margin: 0; font-size: 1.08rem; }
+.writing-row p { margin: .35rem 0 0; color: var(--secondary); font-size: .94rem; }
+.tags-header p { color: var(--secondary); max-width: 36rem; }
+.language-tags + .language-tags { margin-top: 2.5rem; }
+.language-tags h2 { font-size: 1rem; color: var(--secondary); text-transform: uppercase; letter-spacing: .08em; }
+.terms-tags a { border-radius: 999px; }
+.terms-tags sup { margin-left: .2rem; color: var(--secondary); }
+.comments-separator { margin: 3rem 0 2rem; border-top: 1px solid var(--border); }
+
+@media (max-width: 640px) {
+  .home-intro { grid-template-columns: 1fr; gap: 1.4rem; margin: 2rem 0 3.5rem; }
+  .home-avatar { width: 132px; height: 132px; }
+  .writing-row { grid-template-columns: 1fr; gap: .35rem; }
+}

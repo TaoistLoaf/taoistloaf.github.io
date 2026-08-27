@@ -1,0 +1,5 @@
+/public/
+/resources/_gen/
+/.hugo-cache/
+/.repo-recovery/
+.hugo_build.lock

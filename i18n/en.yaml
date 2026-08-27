@@ -1,0 +1,20 @@
+- id: portraitAlt
+  translation: "Portrait of Zachary Zhuang"
+- id: welcome
+  translation: "Hello, I’m"
+- id: intro
+  translation: "I work on human-centered AI, generative models, and recommendation systems. This is where I keep essays, field notes, and technical fragments."
+- id: homeNote
+  translation: "Sometimes in English, sometimes in Chinese—always written by a person."
+- id: recentWriting
+  translation: "Recent writing"
+- id: allWriting
+  translation: "All writing"
+- id: noWriting
+  translation: "New writing will appear here."
+- id: allTags
+  translation: "All tags"
+- id: tagsIntro
+  translation: "A shared index of topics from both the English and Chinese sides of this site."
+- id: noTags
+  translation: "No tags yet."

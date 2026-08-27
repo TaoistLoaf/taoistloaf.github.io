@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="home-intro">
+  <img class="home-avatar" src="{{ "profile.png" | relURL }}" alt="{{ i18n "portraitAlt" }}" width="176" height="176">
+  <div>
+    <p class="home-kicker">{{ i18n "welcome" }}</p>
+    <h1>Zachary <span>(Ziyue) Zhuang</span></h1>
+    <p>{{ i18n "intro" }}</p>
+    <p class="home-note">{{ i18n "homeNote" }}</p>
+  </div>
+</section>
+
+<section class="recent-writing">
+  <div class="section-heading">
+    <h2>{{ i18n "recentWriting" }}</h2>
+    <a href="{{ "posts/" | relLangURL }}">{{ i18n "allWriting" }} →</a>
+  </div>
+  {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+  <article class="writing-row">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    <div>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </article>
+  {{ else }}
+  <p>{{ i18n "noWriting" }}</p>
+  {{ end }}
+</section>
+{{ end }}
