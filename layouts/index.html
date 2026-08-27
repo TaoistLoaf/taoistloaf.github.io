@@ -3,9 +3,44 @@
   <img class="home-avatar" src="{{ "profile.png" | relURL }}" alt="{{ i18n "portraitAlt" }}" width="176" height="176">
   <div>
     <p class="home-kicker">{{ i18n "welcome" }}</p>
-    <h1>Zachary <span>(Ziyue) Zhuang</span></h1>
+    <h1 class="home-wordmark">ZIYUE<span class="wordmark-dot" aria-hidden="true">.</span></h1>
+    <p class="home-byline">Zachary(Ziyue) Zhuang · 庄子悦</p>
     <p>{{ i18n "intro" }}</p>
     <p class="home-note">{{ i18n "homeNote" }}</p>
+    <ul class="home-themes" aria-label="{{ i18n "themesLabel" }}">
+      <li>{{ i18n "themeResearch" }}</li>
+      <li>{{ i18n "themeMaking" }}</li>
+      <li>{{ i18n "themeLife" }}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="home-poem" aria-labelledby="home-poem-title">
+  <header class="home-poem-header">
+    <p class="home-poem-label" id="home-poem-title">{{ i18n "poemLabel" }}</p>
+    <p class="home-poem-credit">陶渊明 · 《读山海经·其一》</p>
+  </header>
+  <div class="home-poem-pair">
+    <blockquote class="poem-original" lang="zh-Hans">
+      <p>孟夏草木长，绕屋树扶疏。</p>
+      <p>众鸟欣有托，吾亦爱吾庐。</p>
+      <p>既耕亦已种，时还读我书。</p>
+      <p>穷巷隔深辙，颇回故人车。</p>
+      <p>欢言酌春酒，摘我园中蔬。</p>
+      <p>微雨从东来，好风与之俱。</p>
+      <p>泛览周王传，流观山海图。</p>
+      <p>俯仰终宇宙，不乐复何如？</p>
+    </blockquote>
+    <div class="poem-translation" lang="en">
+      <p>Early-summer grasses and trees grow tall; lush branches encircle my home.</p>
+      <p>The birds rejoice in having found shelter; I too have come to love my dwelling.</p>
+      <p>The fields are tilled and seeds are sown; now and then I return to my books.</p>
+      <p>A secluded lane keeps deep wheel-ruts away and turns old friends’ carriages aside.</p>
+      <p>Gladly I pour the spring wine and gather greens from my garden.</p>
+      <p>A fine rain comes out of the east; a gentle wind arrives with it.</p>
+      <p>I wander through the tales of King Zhou and gaze across the Mountains and Seas.</p>
+      <p>Looking up and down, I hold the universe—what greater joy could there be?</p>
+    </div>
   </div>
 </section>
 
