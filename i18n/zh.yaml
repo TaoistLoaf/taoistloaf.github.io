@@ -1,11 +1,21 @@
 - id: portraitAlt
-  translation: "庄子越的照片"
+  translation: "庄子悦的照片"
 - id: welcome
-  translation: "你好，我是"
+  translation: "研究 · 创作 · 生活"
 - id: intro
-  translation: "我关注以人为中心的人工智能、生成模型与推荐系统。这里保存随笔、观察和不时写下的技术札记。"
+  translation: "我是子悦，一名关注以人为中心的人工智能、生成系统与推荐技术的计算机研究者和创作者。"
 - id: homeNote
-  translation: "有时写中文，有时写英文，但都由人亲自写下。"
+  translation: "这是我的双语札记：记录从研究里长出的想法、为人而做的东西，以及值得留下的日常片段。"
+- id: themesLabel
+  translation: "我反复回到的主题"
+- id: themeResearch
+  translation: "以人为中心的 AI"
+- id: themeMaking
+  translation: "我做的东西"
+- id: themeLife
+  translation: "生活札记"
+- id: poemLabel
+  translation: "常读之诗"
 - id: recentWriting
   translation: "最近写作"
 - id: allWriting

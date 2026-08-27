@@ -1,15 +1,15 @@
-{{- if and .Site.Params.giscus.repoID .Site.Params.giscus.categoryID -}}
+{{- if and .Site.Params.giscus.repoid .Site.Params.giscus.categoryid -}}
 <div class="comments-separator"></div>
 <script src="https://giscus.app/client.js"
         data-repo="{{ .Site.Params.giscus.repo }}"
-        data-repo-id="{{ .Site.Params.giscus.repoID }}"
+        data-repo-id="{{ .Site.Params.giscus.repoid }}"
         data-category="{{ .Site.Params.giscus.category }}"
-        data-category-id="{{ .Site.Params.giscus.categoryID }}"
+        data-category-id="{{ .Site.Params.giscus.categoryid }}"
         data-mapping="{{ .Site.Params.giscus.mapping }}"
         data-strict="{{ .Site.Params.giscus.strict }}"
-        data-reactions-enabled="{{ .Site.Params.giscus.reactionsEnabled }}"
-        data-emit-metadata="{{ .Site.Params.giscus.emitMetadata }}"
-        data-input-position="{{ .Site.Params.giscus.inputPosition }}"
+        data-reactions-enabled="{{ .Site.Params.giscus.reactionsenabled }}"
+        data-emit-metadata="{{ .Site.Params.giscus.emitmetadata }}"
+        data-input-position="{{ .Site.Params.giscus.inputposition }}"
         data-theme="{{ .Site.Params.giscus.theme }}"
         data-lang="{{ if eq .Site.Language.Lang "zh" }}zh-CN{{ else }}en{{ end }}"
         crossorigin="anonymous"

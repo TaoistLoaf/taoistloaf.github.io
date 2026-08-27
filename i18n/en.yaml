@@ -1,11 +1,21 @@
 - id: portraitAlt
   translation: "Portrait of Zachary Zhuang"
 - id: welcome
-  translation: "Hello, I’m"
+  translation: "Research · Making · Life"
 - id: intro
-  translation: "I work on human-centered AI, generative models, and recommendation systems. This is where I keep essays, field notes, and technical fragments."
+  translation: "I’m Ziyue, a computer science researcher and builder interested in human-centered AI, generative systems, and recommendation."
 - id: homeNote
-  translation: "Sometimes in English, sometimes in Chinese—always written by a person."
+  translation: "This is my bilingual notebook for ideas that begin in research, things made for people, and ordinary moments worth keeping."
+- id: themesLabel
+  translation: "Topics I return to"
+- id: themeResearch
+  translation: "Human-centered AI"
+- id: themeMaking
+  translation: "Things I build"
+- id: themeLife
+  translation: "Notes from life"
+- id: poemLabel
+  translation: "A poem I return to"
 - id: recentWriting
   translation: "Recent writing"
 - id: allWriting

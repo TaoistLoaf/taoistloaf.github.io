@@ -1,5 +1,5 @@
 baseURL = "https://taoistloaf.github.io/"
-title = "TaoistLoaf"
+title = "ZIYUE"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -15,7 +15,7 @@ home = ["HTML", "RSS", "JSON"]
 
 [params]
 author = "Zachary (Ziyue) Zhuang"
-description = "Notes, essays, and technical writing by Zachary Zhuang."
+description = "ZIYUE — notes on human-centered AI, generative systems, and ordinary life."
 defaultTheme = "auto"
 ShowReadingTime = true
 ShowPostNavLinks = true
@@ -29,14 +29,14 @@ disableHLJS = true
 
 [params.giscus]
 repo = "TaoistLoaf/taoistloaf.github.io"
-repoID = ""
+repoID = "R_kgDON_F_Sg"
 category = "Announcements"
-categoryID = ""
+categoryID = "DIC_kwDON_F_Ss4DEUyp"
 mapping = "pathname"
 strict = "0"
 reactionsEnabled = "1"
 emitMetadata = "0"
-inputPosition = "top"
+inputPosition = "bottom"
 theme = "preferred_color_scheme"
 lang = "en"
 
@@ -47,7 +47,7 @@ contentDir = "content/en"
 weight = 1
 
 [languages.en.params]
-description = "Notes, essays, and technical writing by Zachary Zhuang."
+description = "ZIYUE — notes on human-centered AI, generative systems, and ordinary life."
 
 [[languages.en.menu.main]]
 name = "Home"
@@ -77,7 +77,7 @@ weight = 2
 hasCJKLanguage = true
 
 [languages.zh.params]
-description = "庄子越的随笔、技术札记与个人记录。"
+description = "ZIYUE｜庄子悦关于人工智能、生成系统与日常生活的双语札记。"
 
 [[languages.zh.menu.main]]
 name = "首页"
